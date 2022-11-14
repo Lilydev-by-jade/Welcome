@@ -1,13 +1,13 @@
-package com.lilydev.example_mod
+package com.lilydev.welcome
 
 import net.fabricmc.api.ModInitializer
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 
-object ExampleMod : ModInitializer {
+object WelcomeServer : ModInitializer {
 
-    const val MOD_ID: String = "example_mod"
-    const val MOD_NAME: String = "Example Mod"
+    const val MOD_ID: String = "welcome"
+    const val MOD_NAME: String = "Welcome"
 
     @JvmField
     val LOGGER: Logger = LoggerFactory.getLogger(MOD_NAME)
